@@ -1,0 +1,43 @@
+.body {
+  background-color: black;
+}
+canvas {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.container {
+  background-color: #4D4C7D;
+  position: fixed;
+  margin-bottom: 10; 
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  background: no-repeat;
+  background-image: url(../img/Logo_Genshin_Impact.png);
+  
+  width: 274px;
+  height: 110px;
+}
+
+.center {
+  background-color: #827397;  
+  position: fixed;
+  top:15%;
+  right: 10%;
+  left: 10%;
+  bottom: 0%;
+}
+
+.text {
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
